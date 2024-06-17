@@ -24,11 +24,11 @@ function adicionarPessoa(nome = 'Zé', idade = 0, atributo = 'Zézão', id=pesso
 
 console.log('A primeira pessoa é ' + pessoas[0].nome);
 
-adicionarPessoa('Renato', 12, 'abestado');
-adicionarPessoa('Seu Muniz', 63, 'Bigodudo');
-adicionarPessoa('Mané Lito', 52, 'Cu de cana');
-adicionarPessoa('Chico Sola', 49, 'Escorado');
-adicionarPessoa('Zé Rufino', 57, 'Pistoleiro');
+adicionarPessoa('Renato', 12, 'dissimulado');
+adicionarPessoa('Seu Muniz', 63, 'bigodudo');
+adicionarPessoa('Mané Lito', 52, 'degustador');
+adicionarPessoa('Chico Sola', 49, 'sedutor');
+adicionarPessoa('Zé Rufino', 57, 'estrangeiro');
 
 for(let i=0; i < pessoas.length; i++){
     console.log( `${pessoas[i].nome} tem ${pessoas[i].idade} anos e é ${pessoas[i].atributo}.`)
@@ -51,9 +51,9 @@ function mudarPessoa(i, nome, idade, atributo){
 
 mudarPessoa(0, 'Luizaum', 25, 'bonito');
 mudarPessoa(3, 'Maria Keyla', 2, 'fina');
-mudarPessoa(4, 'Robbson', 54, 'viciado');
-mudarPessoa(6, 'Catolé', 30, 'trambiqueiro');
-mudarPessoa(9, 'Telemarques', 30, 'trambiqueiro');
+mudarPessoa(4, 'Robbson', 54, 'informado');
+mudarPessoa(6, 'Catolé', 30, 'chato');
+mudarPessoa(9, 'Telemarques', 30, 'ocupado');
 
 console.log(pessoas);
 
